@@ -19,7 +19,7 @@ def get_sign(m, n):
 
 def divide(m, n):
     if n == 0:
-        raise Exception("BLACK HOLE")
+        raise ZeroDivisionError("EXCEPTION: divided by 0")
     sign = get_sign(m, n)
     d = 0
     m = abs(m)
@@ -42,5 +42,4 @@ print(r[5])
 try:
     divide(100, 0)
 except:
-    print()
-
+    print("ERROR!!!!")
