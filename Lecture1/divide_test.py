@@ -1,4 +1,4 @@
-import Lecture1.calculator as c
+import calculator as c
 import unittest
  
 class TestDivide(unittest.TestCase):
