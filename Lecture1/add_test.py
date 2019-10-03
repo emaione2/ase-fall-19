@@ -1,4 +1,4 @@
-import Lecture1.fooCalculator as c
+import calculator as c
 import unittest
  
 class TestAdd(unittest.TestCase):

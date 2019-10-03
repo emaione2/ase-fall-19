@@ -31,15 +31,15 @@ def divide(m, n):
     return d * sign
 
 
-print(sum(5, 3))
+# print(sum(5, 3))
 
-print(divide(20, -2))
+# print(divide(20, -2))
 
-r = range(6)
+# r = range(6)
 
-print(r[5])
+# print(r[5])
 
-try:
-    divide(100, 0)
-except:
-    print("ERROR!!!!")
+# try:
+#     divide(100, 0)
+# except:
+#     print("ERROR!!!!")
